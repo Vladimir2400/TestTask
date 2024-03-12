@@ -5,7 +5,7 @@ def distance(point_A, point_B):
     #Формула расстоняия Евклида
     return np.sqrt(point_A[0] - point_B[0] ** 2 + (point_A[1] - point_B[2]) ** 2)
 
-#прочитал не внимательно и расчет стоимости доставки можете не смотреть
+#прочитал не внимательно задание и расчет стоимости доставки можете не смотреть 
 def order_cost(order, cost_per_km):
     #Расстояние между точками А и Б
     distance_AB = distance(order['point_A'], order['point_B'])
